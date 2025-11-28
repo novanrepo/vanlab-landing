@@ -66,9 +66,9 @@ export default function Home() {
 
     // Smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
+      anchor.addEventListener('click', (e: Event) => {
         e.preventDefault()
-        const href = (this as HTMLAnchorElement).getAttribute('href')
+        const href = (e.currentTarget as HTMLAnchorElement).getAttribute('href')
         if (href) {
           const target = document.querySelector(href)
           if (target) {
