@@ -445,6 +445,11 @@ img {
     width: 100%;
     height: 250px;
     overflow: hidden;
+    border-radius: 12px 12px 0 0;
+}
+
+.work-image img {
+    transition: var(--transition);
 }
 
 .work-placeholder {
@@ -453,6 +458,7 @@ img {
     transition: var(--transition);
 }
 
+.work-card:hover .work-image img,
 .work-card:hover .work-placeholder {
     transform: scale(1.05);
 }

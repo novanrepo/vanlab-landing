@@ -258,7 +258,13 @@ export default function Home() {
             <div className="work-grid">
               <div className="work-card">
                 <div className="work-image">
-                  <div className="work-placeholder" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}></div>
+                  <Image 
+                    src="/assets/filasuite-image.png" 
+                    alt="Filasuite Dashboard - ERP Application"
+                    width={600}
+                    height={400}
+                    style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                  />
                 </div>
                 <div className="work-info">
                   <h3 style={{ fontFamily: 'var(--font-museo)' }}>Filasuite</h3>
@@ -272,7 +278,13 @@ export default function Home() {
               </div>
               <div className="work-card">
                 <div className="work-image">
-                  <div className="work-placeholder" style={{ background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)' }}></div>
+                  <Image 
+                    src="/assets/kaspoint-image.png" 
+                    alt="Kaspoint Dashboard - Mobile Point of Sale System"
+                    width={600}
+                    height={400}
+                    style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                  />
                 </div>
                 <div className="work-info">
                   <h3 style={{ fontFamily: 'var(--font-museo)' }}>Kaspoint</h3>
@@ -286,7 +298,13 @@ export default function Home() {
               </div>
               <div className="work-card">
                 <div className="work-image">
-                  <div className="work-placeholder" style={{ background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)' }}></div>
+                  <Image 
+                    src="/assets/solois-image.png" 
+                    alt="Solois Dashboard - Simple dashboard for Solopreneur and Freelancer"
+                    width={600}
+                    height={400}
+                    style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                  />
                 </div>
                 <div className="work-info">
                   <h3 style={{ fontFamily: 'var(--font-museo)' }}>Solois</h3>
