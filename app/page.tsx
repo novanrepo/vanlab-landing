@@ -299,16 +299,16 @@ export default function Home() {
               <div className="work-card">
                 <div className="work-image">
                   <Image 
-                    src="/assets/solois-image.png" 
-                    alt="Solois Dashboard - Simple dashboard for Solopreneur and Freelancer"
+                    src="/assets/solotify-image.png" 
+                    alt="Solotify Dashboard - Advanced business management platform"
                     width={600}
                     height={400}
                     style={{ objectFit: 'cover', width: '100%', height: '100%' }}
                   />
                 </div>
                 <div className="work-info">
-                  <h3 style={{ fontFamily: 'var(--font-museo)' }}>Solois</h3>
-                  <p>Simple dashboard for Solopreneur and Freelancer to manage invoices, clients and projects.</p>
+                  <h3 style={{ fontFamily: 'var(--font-museo)' }}>Solotify</h3>
+                  <p>Advanced business management platform with invoice management, client tracking, and project oversight.</p>
                   <div className="work-tags">
                     <span>Filament</span>
                     <span>Flutterflow</span>
